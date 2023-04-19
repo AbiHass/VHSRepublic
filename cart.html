@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntegradorJS Abi Hasrun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loginstyles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="navbar">
+
+
+            <div class="categories">
+                <ul class="navbar-list">
+                    <li><a href="#movies" class="category active" id="button_effect">Todos</a></li>
+                    <li><a href="#movies" class="category" data-category="Horror" id="button_effect">Terror</a></li>
+                    <li><a href="#movies" class="category" data-category="Sci-Fi" id="button_effect">Sci-Fi</a></li>
+                    <li><a href="#movies" class="category" data-category="Action & Adventure" id="button_effect">Acción & Aventura</a></li>
+                    <li><a href="#movies" class="category" data-category="Comedy" id="button_effect">Comedia</a></li>
+                    <li><a href="#movies" class="category" data-category="Family" id="button_effect">Familia</a></li>
+                    <li><a href="#movies" class="category" data-category="Drama" id="button_effect">Drama</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_labels">
+
+                <div class="menu-label"> <i class="fa-solid fa-bars" id="menu-icon"></i> </div>
+
+                <div class="login-label"><a href="login.html" target="_blank"><i
+                            class="fa-solid fa-right-to-bracket"></i></a></div>
+                <div class="cart-label">
+                    <a href="cart.html" target="_blank">
+                        <i class="fa-solid fa-cart-shopping cart-icon">
+                            <div class="cart-bubble">0</div>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="overlay"></div>
+
+    </header>
+
+
+    
+
+    <body>
+        <div class="cart">
+            <h2>Tu Compra</h2>
+            <div class="cart-container">
+                <!--                      
+            <div class="cart-item">
+                <img src=${img} alt="Img del carrito"/>
+                    <div class="item-info">
+                        <h3 class="item-title">${name}</h3>
+                        <p class="item-price">Precio</p>
+                        <span class="item-valor">$${price}</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down" data-id=${id}>-</span>
+                        <span class="item-quantity">${quantity}</span>
+                        <span class="quantity-handler up" data-id=${id}>+</span>
+                    </div>
+            </div>
+        -->
+            </div>
+
+            <!-- <span class="divider"></span> -->
+
+            <div class="cart-total">
+                <p class="ttl">Total: </p>
+                <p class="total">USD 1</p>
+            </div>
+            <button class="btn-buy">Comprar</button>
+            <button class="btn-delete">Vaciar</button>
+        </div>
+
+        <div class="add-modal"></div>
+
+        <span class="divider"></span>
+
+        <div class="contact">
+            <p>Contacto</p> <a href="#"> <i class="fa-brands fa-whatsapp"></i></a> <a href="#"> <i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <span class="divider"></span>
+
+        <footer>
+            <div class="footer">
+                <p>© VHS Republic 2023.</p>
+                <span>
+                    <p>Diseño Web: AbiInTheSky🚀</p>
+                </span>
+            </div>
+        </footer>
+
+        <script src="cart.js"></script>
+
+
+    </body>
+
+</html>

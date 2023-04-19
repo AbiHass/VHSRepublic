@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntegradorJS Abi Hasrun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loginstyles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="navbar">
+
+
+            <div class="categories">
+                <ul class="navbar-list">
+                    <li><a href="#movies" class="category active" id="button_effect">Todos</a></li>
+                    <li><a href="#movies" class="category" data-category="Horror" id="button_effect">Terror</a></li>
+                    <li><a href="#movies" class="category" data-category="Sci-Fi" id="button_effect">Sci-Fi</a></li>
+                    <li><a href="#movies" class="category" data-category="Action & Adventure" id="button_effect">Acción & Aventura</a></li>
+                    <li><a href="#movies" class="category" data-category="Comedy" id="button_effect">Comedia</a></li>
+                    <li><a href="#movies" class="category" data-category="Family" id="button_effect">Familia</a></li>
+                    <li><a href="#movies" class="category" data-category="Drama" id="button_effect">Drama</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_labels">
+
+                <div class="menu-label"> <i class="fa-solid fa-bars" id="menu-icon"></i> </div>
+
+                <div class="login-label"><a href="login.html" target="_blank"><i
+                            class="fa-solid fa-right-to-bracket"></i></a></div>
+                <div class="cart-label">
+                    <a href="cart.html" target="_blank">
+                        <i class="fa-solid fa-cart-shopping cart-icon">
+                            <div class="cart-bubble">0</div>
+                        </i>
+                    </a>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="overlay"></div>
+
+    </header>
+
+
+    <main class="hero">
+        <section class="shipp">
+            <div class="shipp_option"><i class="fa-solid fa-truck-fast"></i> <p> Envíos Internacionales</p> </div>
+            <div class="shipp_option"><i class="fa-regular fa-heart"></i> <p> Free Shipping +USD 50 </p></div>
+        </section>
+        <section id="about">
+            <div class="about_container">
+                <h1>El mejor cine para <span>Coleccionistas.</span></h1>
+                <p>Clásicos del cine en VHS en su empaque original.</p>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <section id="products">
+        <a name="movies" id="movies"></a>
+        <h1 class="title_cards">Películas</h1>
+
+        <div class="productsContainer">
+            <!--  <div class="product">
+              <img src="${img} " alt="${name} " class="img">
+              <div>
+                <h2>${name} </h2>
+                <p>${director}
+                <p>$${price}
+              </div>
+
+                <button class="btn-add" 
+                data-id='${id}'
+                data-name='${name}'
+                data-price='${price}'
+                data-img='${img}'>Comprar</button>
+        </div> -->
+        </div>
+
+        <div class="btn-load"> <button>Ver Más</button></div>
+
+    </section>
+
+    <span class="divider"></span>
+
+    <div class="contact">
+        <p>Contacto</p> <a href="#"> <i class="fa-brands fa-whatsapp"></i></a> <a href="#"> <i
+                class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <span class="divider"></span>
+
+    <footer>
+        <div class="footer">
+            <p>© VHS Republic 2023.</p>
+            <span>
+                <p>Diseño Web: AbiInTheSky🚀</p>
+            </span>
+        </div>
+    </footer>
+    <div class="add-modal"></div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+
+
+
+
+</body>
+
+</html>
