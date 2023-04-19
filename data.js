@@ -5,7 +5,7 @@ const productsData = [
     director: 'Steven Spielberg',
     price: 3, 
     category: 'Horror',
-    img: './img/tiburon.jpg',
+    img: './img/Tiburon.jpg',
 },
 {
     id: 2,
